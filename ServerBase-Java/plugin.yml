@@ -1,0 +1,11 @@
+main: me.bukkit.sb.main.ReqBukkit
+name: ServerBase
+version: 0.1
+author: ColeScheller
+description: Base to build on
+commands:
+   list:
+     description: Lists something
+     usage: /l [object]
+     permission: sb.list
+     permission-message: You don't have sufficient permissions
